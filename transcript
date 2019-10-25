@@ -1,0 +1,274 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 4.9.0-8-amd64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Project file /home/19111170/Desktop/Aula Latch 25-10/latch.mpf was not found.
+# Unable to open project.
+do sim_fa.do
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Copying /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:04:29 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S_R_latch
+# -- Compiling architecture S_R_latch of S_R_latch
+# -- Compiling entity D_latch
+# ** Error: ffd.vhd(22): (vcom-1136) Unknown identifier "std_logic".
+# ** Error: ffd.vhd(23): (vcom-1136) Unknown identifier "std_logic".
+# ** Error: ffd.vhd(25): VHDL Compiler exiting
+# End time: 11:04:29 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./sim_fa.do line 5
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ffd.vhd"
+do sim_fa.do
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:05:18 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S_R_latch
+# -- Compiling architecture S_R_latch of S_R_latch
+# -- Compiling entity D_latch
+# -- Compiling architecture D_latch of D_latch
+# End time: 11:05:18 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:05:18 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb of tb
+# ** Error: ffd_tb.vhd(8): near ":": expecting IDENTIFIER
+# ** Error: ffd_tb.vhd(13): Illegal target for signal assignment.
+# ** Error: ffd_tb.vhd(13): (vcom-1136) Unknown identifier "in_S".
+# ** Error: ffd_tb.vhd(13): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(13): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(13): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(13): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(13): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(14): Illegal target for signal assignment.
+# ** Error: ffd_tb.vhd(14): (vcom-1136) Unknown identifier "in_R".
+# ** Error: ffd_tb.vhd(14): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(14): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(14): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(14): Enumeration literal '0' is not of type (error).
+# -- Loading entity S_R_latch
+# ** Error: ffd_tb.vhd(18): (vcom-1136) Unknown identifier "in_S".
+# ** Error: ffd_tb.vhd(19): (vcom-1136) Unknown identifier "in_R".
+# ** Error: ffd_tb.vhd(20): (vcom-1136) Unknown identifier "in_Q".
+# ** Error: ffd_tb.vhd(21): (vcom-1136) Unknown identifier "in_nQ".
+# -- Loading entity D_latch
+# ** Error: ffd_tb.vhd(26): (vcom-1136) Unknown identifier "in_D".
+# ** Error: ffd_tb.vhd(28): (vcom-1136) Unknown identifier "in_QD".
+# ** Error: ffd_tb.vhd(32): VHDL Compiler exiting
+# End time: 11:05:18 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./sim_fa.do line 6
+# /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+#     while executing
+# "vcom -work work ffd_tb.vhd"
+do sim_fa.do
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:05:41 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S_R_latch
+# -- Compiling architecture S_R_latch of S_R_latch
+# -- Compiling entity D_latch
+# -- Compiling architecture D_latch of D_latch
+# End time: 11:05:41 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:05:41 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb of tb
+# -- Loading entity S_R_latch
+# -- Loading entity D_latch
+# End time: 11:05:41 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:05:41 on Oct 25,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(tb)#1
+# Loading work.s_r_latch(s_r_latch)#1
+# Loading work.d_latch(d_latch)#1
+# 1
+# 1
+do sim_fa.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 19111170@l3043247.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:06:19 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S_R_latch
+# -- Compiling architecture S_R_latch of S_R_latch
+# -- Compiling entity D_latch
+# -- Compiling architecture D_latch of D_latch
+# End time: 11:06:19 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:06:19 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb of tb
+# ** Error: ffd_tb.vhd(15): Illegal target for signal assignment.
+# ** Error: ffd_tb.vhd(15): (vcom-1136) Unknown identifier "ck".
+# ** Error: ffd_tb.vhd(15): (vcom-1136) Unknown identifier "ck".
+# ** Error: ffd_tb.vhd(16): Illegal target for signal assignment.
+# ** Error: ffd_tb.vhd(16): (vcom-1136) Unknown identifier "D".
+# ** Error: ffd_tb.vhd(16): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(16): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(16): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(16): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(16): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(17): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(17): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(17): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(17): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(17): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(18): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(18): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(18): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(18): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(18): Enumeration literal '1' is not of type (error).
+# ** Error: ffd_tb.vhd(19): Enumeration literal '0' is not of type (error).
+# ** Error: ffd_tb.vhd(19): Enumeration literal '1' is not of type (error).
+# -- Loading entity S_R_latch
+# -- Loading entity D_latch
+# ** Error: ffd_tb.vhd(37): VHDL Compiler exiting
+# End time: 11:06:19 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 23, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./sim_fa.do line 6
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do sim_fa.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 19111170@l3043247.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:06:39 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S_R_latch
+# -- Compiling architecture S_R_latch of S_R_latch
+# -- Compiling entity D_latch
+# -- Compiling architecture D_latch of D_latch
+# End time: 11:06:39 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:06:39 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb of tb
+# ** Error: ffd_tb.vhd(15): (vcom-1136) Unknown identifier "ck".
+# ** Error: ffd_tb.vhd(15): Type error resolving prefix expression "not" as type ieee.std_logic_1164.STD_LOGIC.
+# -- Loading entity S_R_latch
+# -- Loading entity D_latch
+# ** Error: ffd_tb.vhd(37): VHDL Compiler exiting
+# End time: 11:06:39 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /soft64/mentor/ferramentas/modelsim/10.3c/modeltech/linux_x86_64/vcom failed.
+# Error in macro ./sim_fa.do line 6
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+do sim_fa.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 19111170@l3043247.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:06:57 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity S_R_latch
+# -- Compiling architecture S_R_latch of S_R_latch
+# -- Compiling entity D_latch
+# -- Compiling architecture D_latch of D_latch
+# End time: 11:06:57 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:06:57 on Oct 25,2019
+# vcom -reportprogress 300 -work work ffd_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb
+# -- Compiling architecture tb of tb
+# -- Loading entity S_R_latch
+# -- Loading entity D_latch
+# End time: 11:06:57 on Oct 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:06:58 on Oct 25,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb(tb)#1
+# Loading work.s_r_latch(s_r_latch)#1
+# Loading work.d_latch(d_latch)#1
+# 1
+# 1
+# Causality operation skipped due to absence of debug database file
